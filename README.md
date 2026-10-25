@@ -1,6 +1,6 @@
 # LSA Decryption Tool — Manual de Uso
 
-Herramienta para desencriptar, editar, balancear (BoP / Híbrido), cambiar sonidos y renombrar autos de **Assetto Corsa** sin romper el archivo `data.acd`.
+Herramienta para desencriptar, editar, balancear, cambiar sonidos y renombrar autos de **Assetto Corsa**.
 
 ---
 
