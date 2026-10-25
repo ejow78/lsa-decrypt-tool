@@ -35,7 +35,7 @@ En la barra superior tenés dos botones parecidos que cumplen funciones distinta
 * Cuando termines de modificar un valor, tocá **Guardar y Re-empaquetar** arriba.
 
 ### Pestaña 2: Balance
-Ideal para nivelar el rendimiento (BoP) entre distintos autos sin tener que calcular curvas a mano:
+Ideal para nivelar el rendimiento entre distintos autos sin tener que calcular curvas a mano:
 * **Respaldo de Seguridad (arriba):** Tocá **Guardar Backup de Fisicas** antes de tocar nada. Si algo no te gusta cómo quedó en pista, tocás **Restaurar Backup de Fisicas** y vuelve todo al estado original.
 * **Balance de Motor y Peso (izquierda):**
   - Te muestra arriba cuántos **Nm de Torque** y **CV / kW de Potencia Máxima** tiene el auto actualmente.
