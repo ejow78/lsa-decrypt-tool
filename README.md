@@ -10,7 +10,6 @@ Tenés dos formas de cargar un auto:
    - Al soltarlo, la herramienta **desencripta automáticamente** todos los archivos dentro de la carpeta `data/` del auto y crea una copia de seguridad (`data.acd.bak`).
 2. **Con los botones superiores:** Tocá **Buscar Carpeta...** o **Buscar data.acd...**, elegí el auto y presioná **Desencriptar data.acd**.
 
-> **Nota importante sobre Assetto Corsa:** El juego siempre lee el archivo `data.acd` si está presente en la carpeta del auto. Por eso, cada vez que termines de hacer cambios en los archivos de `data/`, debés empaquetarlos de nuevo en `data.acd`.
 
 ---
 
