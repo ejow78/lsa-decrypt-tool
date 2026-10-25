@@ -20,7 +20,7 @@ En la barra superior tenés dos botones parecidos que cumplen funciones distinta
 
 * **Guardar y Re-empaquetar (Recomendado si editás adentro del programa):**
   Hace todo en **1 solo paso**: primero guarda en la carpeta `data/` el texto del archivo `.ini` o `.lut` que estés editando en el panel derecho de la herramienta, y enseguida vuelve a encriptar toda la carpeta `data/` adentro de `data.acd`.
-* **Empaquetar data.acd (Para cuando editás afuera con Bloc de Notas / VS Code):**
+* **Empaquetar data.acd (Para cuando editás afuera con Bloc de Notas):**
   Toma los archivos tal como están guardados en ese momento dentro de la carpeta `data/` en el disco y los empaqueta en `data.acd` (no guarda cambios sin guardar del cuadro de texto de la derecha).
 * **Guardar Backup:**
   Crea una carpeta `backup_data/` dentro del auto con una copia intacta de `data.acd` y de toda la carpeta `data/` por si querés volver atrás en cualquier momento.
@@ -44,7 +44,7 @@ Ideal para nivelar el rendimiento entre distintos autos sin tener que calcular c
   - Tocá **Aplicar Balance y Re-empaquetar**.
 * **Sistema Híbrido / ERS (derecha — para Hypercars LMH / LMDh):**
   - Permite cambiar el **Modo Activo** (ej. `MEDIUM`), el **Torque Eléctrico Máximo (Nm)**, la **Recarga en frenada**, el **Tiempo de descarga por vuelta** y el rango de velocidades (`km/h`) en el que empuja el motor eléctrico (ej. `190` a `325 km/h`).
-  - **Botón "Instalar Hibrido Hypercar WEC (Modo MEDIUM)":** Si tenés un Hypercar sin sistema híbrido o con un híbrido mal configurado, este botón le instala un sistema híbrido WEC completo y balanceado en modo `MEDIUM` adaptado automáticamente a las RPM de tu auto.
+  - **Botón "Instalar Hibrido Hypercar WEC":** Si tenés un Hypercar sin sistema híbrido o con uno mal configurado, este botón le escribe un sistema híbrido tipo WEC completo y balanceado.
 
 ### Pestaña 3: Sonido y Renombrar Auto
 * **Cambiar Sonido del Auto (Sound Swapper — izquierda):**
