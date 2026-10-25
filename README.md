@@ -57,22 +57,4 @@ Ideal para nivelar el rendimiento (BoP) entre distintos autos sin tener que calc
   - Escribí el **Nuevo nombre** en este panel y tocá **Renombrar Auto y Re-empaquetar data.acd**: el programa renombra la carpeta, adapta el `.bank` y el `GUIDs.txt` al nombre nuevo, y vuelve a encriptar el `data.acd` con la clave nueva.
 
 ---
-
-## 4. Para Desarrolladores: Cómo editar el código y generar el `.exe`
-
-La carpeta del código fuente está en `C:\Users\Javi\ac-acd-tool`:
-* `acd_tool.py`: Código fuente principal de la aplicación (interfaz, desencriptador, BoP, híbrido y sonido).
-* `build_protected_exe.py`: Script que toma `acd_tool.py`, cifra el bytecode en memoria con protección anti-debugger, actualiza el icono desde `Logo_LSA.png` y compila el ejecutable con PyInstaller.
-* `Compilar_EXE.bat`: Acceso directo para compilar en 1 clic.
-
-### Pasos para modificar el código y crear el nuevo `.exe`:
-1. Editá `acd_tool.py` con VS Code o Bloc de Notas y guardá los cambios.
-2. Probá tus cambios rápido sin compilar ejecutando:
-   ```powershell
-   python "C:\Users\Javi\ac-acd-tool\acd_tool.py"
-   ```
-3. Cuando quieras generar el `.exe` protegido nuevo, hacé **doble clic en `Compilar_EXE.bat`** (o ejecutá por consola `python build_protected_exe.py`).
-4. El nuevo `LSA Decryption Tool.exe` se generará automáticamente en `C:\Users\Javi\ac-acd-tool\dist\LSA Decryption Tool.exe` y se copiará también a `Z:\FH6\evo\LSA Decryption Tool.exe`.
-
----
-*Ante cualquier duda o error, contactar en Discord a: **lancool***
+*Ante cualquier duda o error, contactar en Discord: **lancool***
